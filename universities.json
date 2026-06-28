@@ -1103,6 +1103,16 @@
       "website": "https://shahroodut.ac.ir"
     },
     {
+      "name": "Sharif University of Technology",
+      "name_fa": "دانشگاه صنعتی شریف",
+      "domains": [
+        "sharif.ac.ir"
+      ],
+      "type": "public",
+      "city": "Tehran",
+      "website": "https://sharif.ac.ir"
+    },
+    {
       "name": "Sharif University of Technology, Kish Campus",
       "name_fa": "پردیس بین‌المللی دانشگاه صنعتی شریف",
       "domains": [
