@@ -1,12 +1,18 @@
 # Iran Universities Database
 
-A community-maintained database of Iranian university email domains, usable by any app to verify academic email addresses from Iranian institutions.
+A community-maintained database of Iranian university email domains that any app can use to verify academic email addresses from Iranian institutions.
 
 ## Background
 
-[JetBrains' swot repository](https://github.com/JetBrains/swot) — used by tools like [Zed](https://zed.dev) to validate student/educator email addresses — has stopped accepting new Iranian university domains due to legal and sanctions compliance requirements. This leaves Iranian students without access to features tied to academic email verification.
+[JetBrains' swot repository](https://github.com/JetBrains/swot), used by tools like [Zed](https://zed.dev) to validate student and educator email addresses, has stopped accepting new Iranian university domains. JetBrains cites sanctions and export control compliance as the reason. This means Iranian students are being excluded from academic verification features on any platform that depends on swot.
 
-This repository is an independent alternative maintained by the Iranian developer community, with no such restrictions.
+### A note on sanctions
+
+JetBrains' position may not be legally required. OFAC's General License D-2, now codified as [31 CFR § 560.540 of the Iranian Transactions and Sanctions Regulations (ITSR)](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-V/part-560#560.540), explicitly authorizes the export of software and services related to education and personal communications to Iran. This includes collaboration platforms, e-learning platforms, cloud-based services, and user authentication services. OFAC has confirmed it covers educational technology that allows students to access course materials, receive grades, and participate in discussions.
+
+Providing academic email verification for Iranian students appears to fall within this authorization. This was raised with JetBrains in [a comment on the relevant pull request](https://github.com/JetBrains/swot/pull/40330#issuecomment-4822220928), but the request was still rejected.
+
+This repository exists so that Iranian students have the same access to academic verification as students anywhere else in the world.
 
 ## Data
 
@@ -61,7 +67,7 @@ domains/
 
 ### Option 3: Flat domain list
 
-[`domains.txt`](./domains.txt) contains one domain per line — suitable for simple grep/lookup or loading into a set.
+[`domains.txt`](./domains.txt) contains one domain per line, suitable for simple grep/lookup or loading into a set.
 
 ## University Types
 
@@ -98,7 +104,7 @@ To add a missing university or correct existing data, edit [`universities.json`]
 - Each domain can only appear once across the entire database
 - Add the entry in alphabetical order by `name`
 
-The `domains/` directory and `domains.txt` are auto-generated — do not edit them directly.
+The `domains/` directory and `domains.txt` are auto-generated. Do not edit them directly.
 
 ## License
 
