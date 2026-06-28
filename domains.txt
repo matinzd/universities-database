@@ -100,6 +100,7 @@ rums.ac.ir
 sadjad.ac.ir
 sadra.ac.ir
 sbmu.ac.ir
+sbu.ac.ir
 semnan.ac.ir
 semnaniau.ac.ir
 shahed.ac.ir
