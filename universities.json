@@ -332,6 +332,16 @@
       "website": "https://iums.ac.ir"
     },
     {
+      "name": "Iran University of Science and Technology",
+      "name_fa": "دانشگاه علم و صنعت ایران",
+      "domains": [
+        "iust.ac.ir"
+      ],
+      "type": "public",
+      "city": "Tehran",
+      "website": "https://iust.ac.ir"
+    },
+    {
       "name": "Isfahan University",
       "name_fa": "دانشگاه اصفهان",
       "domains": [
