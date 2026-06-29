@@ -47,7 +47,7 @@ jobs:
           # Find domains added in this PR by diffing against the base branch
           git diff origin/${{ github.base_ref }}...HEAD -- universities.json \
             | grep '^+' \
-            | grep -oP '"[a-z0-9.-]+\.(ac\.ir|ir)"' \
+            | grep -oP '"[a-z0-9][a-z0-9.-]*\.[a-z]{2,}"' \
             | tr -d '"' \
             | sort -u > /tmp/new_domains.txt
 

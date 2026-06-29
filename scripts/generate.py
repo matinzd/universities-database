@@ -9,15 +9,23 @@ import sys
 
 
 def domain_to_path(domain):
-    """Convert a domain like ut.ac.ir to (dir_path, filename) relative to domains/."""
-    if domain.endswith(".ac.ir"):
-        subdomain = domain[: -len(".ac.ir")]
-        return os.path.join("ir", "ac"), f"{subdomain}.txt"
-    elif domain.endswith(".ir"):
-        subdomain = domain[: -len(".ir")]
-        return "ir", f"{subdomain}.txt"
-    else:
-        raise ValueError(f"Domain must end in .ac.ir or .ir: {domain}")
+    """Convert any university domain to (dir_path, filename) relative to domains/.
+
+    Mirrors swot's directory structure: TLD parts reversed become nested dirs,
+    the leftmost label becomes the filename.
+
+    Examples:
+        ut.ac.ir      -> ('ir/ac', 'ut.txt')
+        iau.ir        -> ('ir',    'iau.txt')
+        mit.edu       -> ('edu',   'mit.txt')
+        ox.ac.uk      -> ('uk/ac', 'ox.txt')
+    """
+    parts = domain.split(".")
+    if len(parts) < 2:
+        raise ValueError(f"Domain must have at least two labels: {domain}")
+    subdomain = parts[0]
+    dir_parts = list(reversed(parts[1:]))
+    return os.path.join(*dir_parts), f"{subdomain}.txt"
 
 
 def main():
@@ -39,7 +47,7 @@ def main():
     for uni in universities:
         name = uni["name"]
         for domain in uni["domains"]:
-            if not re.match(r"^[a-z0-9.-]+\.(ac\.ir|ir)$", domain):
+            if not re.match(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$", domain):
                 errors.append(f"Invalid domain format '{domain}' in '{name}'")
                 continue
             try:
