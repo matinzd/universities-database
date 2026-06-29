@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Generate swot-compatible domains/ tree and domains.txt from universities.json."""
+"""Generate swot-compatible domains/ tree and domains.txt from universities/*.json."""
 
 import argparse
+import glob
 import json
 import os
 import re
@@ -31,37 +32,46 @@ def domain_to_path(domain):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Validate only, do not write files")
-    parser.add_argument("--input", default="universities.json", help="Input JSON file")
+    parser.add_argument("--universities-dir", default="universities", help="Directory containing per-country JSON files")
     parser.add_argument("--domains-dir", default="domains", help="Output directory for domain tree")
     parser.add_argument("--domains-txt", default="domains.txt", help="Output flat domain list")
+    parser.add_argument("--aggregate-out", default="universities.json", help="Output aggregate JSON file")
     args = parser.parse_args()
 
-    with open(args.input, encoding="utf-8") as f:
-        data = json.load(f)
+    country_files = sorted(glob.glob(os.path.join(args.universities_dir, "*.json")))
+    if not country_files:
+        print(f"ERROR: No JSON files found in {args.universities_dir}/", file=sys.stderr)
+        sys.exit(1)
 
-    universities = data["universities"]
+    all_universities = []
     all_domains = []
     errors = []
     files_to_write = {}
 
-    for uni in universities:
-        name = uni["name"]
-        for domain in uni["domains"]:
-            if not re.match(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$", domain):
-                errors.append(f"Invalid domain format '{domain}' in '{name}'")
-                continue
-            try:
-                dir_path, filename = domain_to_path(domain)
-            except ValueError as e:
-                errors.append(str(e))
-                continue
+    for country_file in country_files:
+        with open(country_file, encoding="utf-8") as f:
+            country_data = json.load(f)
 
-            file_path = os.path.join(args.domains_dir, dir_path, filename)
-            if file_path in files_to_write:
-                errors.append(f"Duplicate domain '{domain}' — conflicts with '{files_to_write[file_path][1]}'")
-            else:
-                files_to_write[file_path] = (name, name)
-            all_domains.append(domain)
+        for uni in country_data["universities"]:
+            name = uni["name"]
+            for domain in uni["domains"]:
+                if not re.match(r"^[a-z0-9][a-z0-9.-]*\.[a-z]{2,}$", domain):
+                    errors.append(f"Invalid domain format '{domain}' in '{name}'")
+                    continue
+                try:
+                    dir_path, filename = domain_to_path(domain)
+                except ValueError as e:
+                    errors.append(str(e))
+                    continue
+
+                file_path = os.path.join(args.domains_dir, dir_path, filename)
+                if file_path in files_to_write:
+                    errors.append(f"Duplicate domain '{domain}' — conflicts with '{files_to_write[file_path][1]}'")
+                else:
+                    files_to_write[file_path] = (name, name)
+                all_domains.append(domain)
+
+            all_universities.append(uni)
 
     if errors:
         for err in errors:
@@ -69,7 +79,7 @@ def main():
         sys.exit(1)
 
     if args.dry_run:
-        print(f"Dry run OK: {len(universities)} universities, {len(all_domains)} domains")
+        print(f"Dry run OK: {len(all_universities)} universities, {len(all_domains)} domains")
         return
 
     # Write domain tree
@@ -83,8 +93,15 @@ def main():
     with open(args.domains_txt, "w", encoding="utf-8") as f:
         f.write("\n".join(all_domains) + "\n")
 
+    # Write aggregate
+    aggregate = {"universities": all_universities}
+    with open(args.aggregate_out, "w", encoding="utf-8") as f:
+        json.dump(aggregate, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
     print(f"Generated {len(files_to_write)} domain files and {args.domains_txt}")
-    print(f"Total: {len(universities)} universities, {len(all_domains)} domains")
+    print(f"Total: {len(all_universities)} universities, {len(all_domains)} domains")
+    print(f"Aggregate written to {args.aggregate_out}")
 
 
 if __name__ == "__main__":

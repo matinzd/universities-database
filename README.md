@@ -17,7 +17,8 @@ This repository started so that Iranian students have the same access to academi
 ## Data
 
 - **148 universities**, **149 email domains** (seeded from swot with Iranian universities, now expanding globally)
-- Source of truth: [`universities.json`](./universities.json)
+- Source of truth: [`universities/`](./universities/) — one JSON file per country (e.g. `universities/IR.json`)
+- Generated aggregate: [`universities.json`](./universities.json) — all entries combined, for consumers who want a single file
 - Derived formats regenerated automatically by CI on every merge
 
 > **v2 breaking change:** `name_fa` has been renamed to `name_local`, and `country` (ISO 3166-1 alpha-2) is now a required field. Update your key lookups accordingly.
@@ -92,9 +93,9 @@ These types originated from the Iranian university system and remain valid for g
 
 ## Contributing
 
-To add a missing university or correct existing data, edit [`universities.json`](./universities.json) and open a pull request. CI will validate the schema and check for duplicate domains automatically.
+To add a missing university or correct existing data, edit the relevant file in [`universities/`](./universities/) (e.g. `universities/IR.json` for Iran, `universities/US.json` for the US) and open a pull request. If no file exists for the country yet, create one. CI will validate the schema and check for duplicate domains automatically.
 
-**Entry format:**
+**Entry format** (inside the `universities` array of a country file):
 
 ```json
 {
@@ -108,15 +109,24 @@ To add a missing university or correct existing data, edit [`universities.json`]
 }
 ```
 
+**Country file format** (`universities/XX.json`):
+
+```json
+{
+  "$schema": "../schema.json",
+  "universities": [ ... ]
+}
+```
+
 **Rules:**
 
 - `name`, `country`, and `domains` are required; all other fields are optional but encouraged
 - `country` must be an ISO 3166-1 alpha-2 code (e.g. `IR`, `US`, `GB`)
 - Domains must be valid lowercase email domains (e.g. `.ac.ir`, `.edu`, `.ac.uk`)
 - Each domain can only appear once across the entire database
-- Add the entry in alphabetical order by `name`
+- Add entries in alphabetical order by `name` within the country file
 
-The `domains/` directory and `domains.txt` are auto-generated. Do not edit them directly.
+The `domains/` directory, `domains.txt`, and root `universities.json` are auto-generated. Do not edit them directly.
 
 ## License
 

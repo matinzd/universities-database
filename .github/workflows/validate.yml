@@ -3,7 +3,7 @@ name: Validate
 on:
   pull_request:
     paths:
-      - "universities.json"
+      - "universities/**"
       - "schema.json"
       - "scripts/generate.py"
 
@@ -26,17 +26,24 @@ jobs:
       - name: Validate JSON schema
         run: |
           python3 - <<'EOF'
-          import json, jsonschema, sys
+          import json, jsonschema, sys, glob
+
           with open("schema.json") as f:
               schema = json.load(f)
-          with open("universities.json") as f:
-              data = json.load(f)
-          try:
-              jsonschema.validate(data, schema)
-              print(f"Schema valid: {len(data['universities'])} universities")
-          except jsonschema.ValidationError as e:
-              print(f"Validation error: {e.message}", file=sys.stderr)
-              sys.exit(1)
+
+          total = 0
+          for path in sorted(glob.glob("universities/*.json")):
+              with open(path, encoding="utf-8") as f:
+                  data = json.load(f)
+              try:
+                  jsonschema.validate(data, schema)
+                  total += len(data["universities"])
+                  print(f"  {path}: {len(data['universities'])} universities OK")
+              except jsonschema.ValidationError as e:
+                  print(f"Validation error in {path}: {e.message}", file=sys.stderr)
+                  sys.exit(1)
+
+          print(f"Schema valid: {total} universities across all country files")
           EOF
 
       - name: Check for duplicates
@@ -45,7 +52,7 @@ jobs:
       - name: Verify new domains have valid DNS records
         run: |
           # Find domains added in this PR by diffing against the base branch
-          git diff origin/${{ github.base_ref }}...HEAD -- universities.json \
+          git diff origin/${{ github.base_ref }}...HEAD -- universities/ \
             | grep '^+' \
             | grep -oP '"[a-z0-9][a-z0-9.-]*\.[a-z]{2,}"' \
             | tr -d '"' \

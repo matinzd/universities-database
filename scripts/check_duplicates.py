@@ -1,23 +1,32 @@
 #!/usr/bin/env python3
-"""Check universities.json for duplicate domains and university names."""
+"""Check universities/*.json for duplicate domains and university names across all country files."""
 
 import argparse
+import glob
 import json
 import sys
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", default="universities.json")
+    parser.add_argument("--universities-dir", default="universities")
     args = parser.parse_args()
 
-    with open(args.input, encoding="utf-8") as f:
-        universities = json.load(f)["universities"]
+    country_files = sorted(glob.glob(f"{args.universities_dir}/*.json"))
+    if not country_files:
+        print(f"No JSON files found in {args.universities_dir}/", file=sys.stderr)
+        sys.exit(1)
+
+    all_universities = []
+    for path in country_files:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        all_universities.extend(data["universities"])
 
     errors = []
 
     seen_domains = {}
-    for uni in universities:
+    for uni in all_universities:
         for domain in uni["domains"]:
             if domain in seen_domains:
                 errors.append(
@@ -28,7 +37,7 @@ def main():
                 seen_domains[domain] = uni["name"]
 
     seen_names = {}
-    for uni in universities:
+    for uni in all_universities:
         key = uni["name"].strip().lower()
         if key in seen_names:
             errors.append(
@@ -43,7 +52,7 @@ def main():
             print(f"  - {e}", file=sys.stderr)
         sys.exit(1)
 
-    print(f"No duplicates found ({len(universities)} universities, {len(seen_domains)} domains)")
+    print(f"No duplicates found ({len(all_universities)} universities, {len(seen_domains)} domains)")
 
 
 if __name__ == "__main__":
