@@ -57,6 +57,10 @@
         "website": {
           "type": "string",
           "description": "Official website URL"
+        },
+        "dns_iran_only": {
+          "type": "boolean",
+          "description": "True when the domain's nameservers are only reachable from within Iran"
         }
       }
     }
