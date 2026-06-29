@@ -1524,6 +1524,17 @@
       "website": "https://ssu.ac.ir"
     },
     {
+      "name": "Yazd University",
+      "name_local": "دانشگاه یزد",
+      "country": "IR",
+      "domains": [
+        "yazd.ac.ir"
+      ],
+      "type": "public",
+      "city": "Yazd",
+      "website": "https://yazd.ac.ir"
+    },
+    {
       "name": "Zabol University",
       "name_local": "دانشگاه زابل",
       "country": "IR",
