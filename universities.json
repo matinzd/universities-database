@@ -3,7 +3,8 @@
   "universities": [
     {
       "name": "Adiban Higher Education Institue",
-      "name_fa": "موسسه آموزش عالی ادیبان",
+      "name_local": "موسسه آموزش عالی ادیبان",
+      "country": "IR",
       "domains": [
         "adiban.ac.ir"
       ],
@@ -13,7 +14,8 @@
     },
     {
       "name": "Ahwaz Jondishapour University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی جندی‌شاپور اهواز",
+      "name_local": "دانشگاه علوم پزشکی جندی‌شاپور اهواز",
+      "country": "IR",
       "domains": [
         "ajums.ac.ir"
       ],
@@ -23,7 +25,8 @@
     },
     {
       "name": "Al-Zahra University",
-      "name_fa": "دانشگاه الزهرا",
+      "name_local": "دانشگاه الزهرا",
+      "country": "IR",
       "domains": [
         "alzahra.ac.ir"
       ],
@@ -33,7 +36,8 @@
     },
     {
       "name": "Allameh Tabatabaie University",
-      "name_fa": "دانشگاه علامه طباطبائی",
+      "name_local": "دانشگاه علامه طباطبائی",
+      "country": "IR",
       "domains": [
         "atu.ac.ir"
       ],
@@ -43,7 +47,8 @@
     },
     {
       "name": "Amirkabir College of Managmant &amp; Technology",
-      "name_fa": "موسسه آموزش عالی آزاد مدیریت و فناوری امیرکبیر",
+      "name_local": "موسسه آموزش عالی آزاد مدیریت و فناوری امیرکبیر",
+      "country": "IR",
       "domains": [
         "acmt.ac.ir"
       ],
@@ -53,7 +58,8 @@
     },
     {
       "name": "Amirkabir University of Technology",
-      "name_fa": "دانشگاه صنعتی امیرکبیر",
+      "name_local": "دانشگاه صنعتی امیرکبیر",
+      "country": "IR",
       "domains": [
         "aut.ac.ir"
       ],
@@ -63,7 +69,8 @@
     },
     {
       "name": "Arak University",
-      "name_fa": "دانشگاه اراک",
+      "name_local": "دانشگاه اراک",
+      "country": "IR",
       "domains": [
         "araku.ac.ir"
       ],
@@ -73,7 +80,8 @@
     },
     {
       "name": "Arak University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی اراک",
+      "name_local": "دانشگاه علوم پزشکی اراک",
+      "country": "IR",
       "domains": [
         "arakmu.ac.ir"
       ],
@@ -83,7 +91,8 @@
     },
     {
       "name": "Ardabil University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی اردبیل",
+      "name_local": "دانشگاه علوم پزشکی اردبیل",
+      "country": "IR",
       "domains": [
         "arums.ac.ir"
       ],
@@ -93,7 +102,8 @@
     },
     {
       "name": "Art University",
-      "name_fa": "دانشگاه هنر ایران",
+      "name_local": "دانشگاه هنر ایران",
+      "country": "IR",
       "domains": [
         "art.ac.ir"
       ],
@@ -103,7 +113,8 @@
     },
     {
       "name": "Azad University of Shabestar",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شبستر",
+      "name_local": "دانشگاه آزاد اسلامی واحد شبستر",
+      "country": "IR",
       "domains": [
         "iaushab.ac.ir"
       ],
@@ -113,7 +124,8 @@
     },
     {
       "name": "Babol Noshirvani University of Technology",
-      "name_fa": "دانشگاه صنعتی نوشیروانی بابل",
+      "name_local": "دانشگاه صنعتی نوشیروانی بابل",
+      "country": "IR",
       "domains": [
         "nit.ac.ir"
       ],
@@ -123,7 +135,8 @@
     },
     {
       "name": "Babol University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی بابل",
+      "name_local": "دانشگاه علوم پزشکی بابل",
+      "country": "IR",
       "domains": [
         "mubabol.ac.ir"
       ],
@@ -133,7 +146,8 @@
     },
     {
       "name": "Baghyatoolah Medical Sciences University",
-      "name_fa": "دانشگاه علوم پزشکی بقیه‌الله (عج)",
+      "name_local": "دانشگاه علوم پزشکی بقیه‌الله (عج)",
+      "country": "IR",
       "domains": [
         "bmsu.ac.ir"
       ],
@@ -143,7 +157,8 @@
     },
     {
       "name": "Birjand University",
-      "name_fa": "دانشگاه بیرجند",
+      "name_local": "دانشگاه بیرجند",
+      "country": "IR",
       "domains": [
         "birjand.ac.ir"
       ],
@@ -153,7 +168,8 @@
     },
     {
       "name": "Birjand University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی بیرجند",
+      "name_local": "دانشگاه علوم پزشکی بیرجند",
+      "country": "IR",
       "domains": [
         "bums.ac.ir"
       ],
@@ -163,7 +179,8 @@
     },
     {
       "name": "Bu Ali Sina University",
-      "name_fa": "دانشگاه بوعلی سینا",
+      "name_local": "دانشگاه بوعلی سینا",
+      "country": "IR",
       "domains": [
         "basu.ac.ir"
       ],
@@ -173,7 +190,8 @@
     },
     {
       "name": "Bushehr University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی بوشهر",
+      "name_local": "دانشگاه علوم پزشکی بوشهر",
+      "country": "IR",
       "domains": [
         "bpums.ac.ir"
       ],
@@ -183,7 +201,8 @@
     },
     {
       "name": "Fasa Faculty of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی فسا",
+      "name_local": "دانشگاه علوم پزشکی فسا",
+      "country": "IR",
       "domains": [
         "fums.ac.ir"
       ],
@@ -193,7 +212,8 @@
     },
     {
       "name": "Fasa University",
-      "name_fa": "دانشگاه فسا",
+      "name_local": "دانشگاه فسا",
+      "country": "IR",
       "domains": [
         "fasau.ac.ir"
       ],
@@ -203,7 +223,8 @@
     },
     {
       "name": "Ferdowsi University of Mashhad",
-      "name_fa": "دانشگاه فردوسی مشهد",
+      "name_local": "دانشگاه فردوسی مشهد",
+      "country": "IR",
       "domains": [
         "um.ac.ir"
       ],
@@ -213,7 +234,8 @@
     },
     {
       "name": "Golestan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی گلستان",
+      "name_local": "دانشگاه علوم پزشکی گلستان",
+      "country": "IR",
       "domains": [
         "goums.ac.ir"
       ],
@@ -223,7 +245,8 @@
     },
     {
       "name": "Gonabad University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی گناباد",
+      "name_local": "دانشگاه علوم پزشکی گناباد",
+      "country": "IR",
       "domains": [
         "gmu.ac.ir"
       ],
@@ -233,7 +256,8 @@
     },
     {
       "name": "Gorgan University of Agricultural Sciences and Natural Resources",
-      "name_fa": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+      "name_local": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
+      "country": "IR",
       "domains": [
         "gau.ac.ir"
       ],
@@ -243,7 +267,8 @@
     },
     {
       "name": "Guilan University",
-      "name_fa": "دانشگاه گیلان",
+      "name_local": "دانشگاه گیلان",
+      "country": "IR",
       "domains": [
         "guilan.ac.ir"
       ],
@@ -253,7 +278,8 @@
     },
     {
       "name": "Guilan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی گیلان",
+      "name_local": "دانشگاه علوم پزشکی گیلان",
+      "country": "IR",
       "domains": [
         "gums.ac.ir"
       ],
@@ -263,7 +289,8 @@
     },
     {
       "name": "Hamadan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی همدان",
+      "name_local": "دانشگاه علوم پزشکی همدان",
+      "country": "IR",
       "domains": [
         "umsha.ac.ir"
       ],
@@ -273,7 +300,8 @@
     },
     {
       "name": "Hormozgan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی هرمزگان",
+      "name_local": "دانشگاه علوم پزشکی هرمزگان",
+      "country": "IR",
       "domains": [
         "hums.ac.ir"
       ],
@@ -283,7 +311,8 @@
     },
     {
       "name": "Ilam University",
-      "name_fa": "دانشگاه ایلام",
+      "name_local": "دانشگاه ایلام",
+      "country": "IR",
       "domains": [
         "ilam.ac.ir"
       ],
@@ -293,7 +322,8 @@
     },
     {
       "name": "Ilam University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی ایلام",
+      "name_local": "دانشگاه علوم پزشکی ایلام",
+      "country": "IR",
       "domains": [
         "hbi.ir"
       ],
@@ -303,7 +333,8 @@
     },
     {
       "name": "Imam Khomeini International University",
-      "name_fa": "دانشگاه بین‌المللی امام خمینی",
+      "name_local": "دانشگاه بین‌المللی امام خمینی",
+      "country": "IR",
       "domains": [
         "ikiu.ac.ir"
       ],
@@ -313,7 +344,8 @@
     },
     {
       "name": "Imam Reza University",
-      "name_fa": "دانشگاه بین‌المللی امام رضا (ع)",
+      "name_local": "دانشگاه بین‌المللی امام رضا (ع)",
+      "country": "IR",
       "domains": [
         "imamreza.ac.ir"
       ],
@@ -323,7 +355,8 @@
     },
     {
       "name": "Imam Sadiq University",
-      "name_fa": "دانشگاه امام صادق (ع)",
+      "name_local": "دانشگاه امام صادق (ع)",
+      "country": "IR",
       "domains": [
         "isu.ac.ir"
       ],
@@ -333,7 +366,8 @@
     },
     {
       "name": "Iran University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی ایران",
+      "name_local": "دانشگاه علوم پزشکی ایران",
+      "country": "IR",
       "domains": [
         "iums.ac.ir"
       ],
@@ -343,7 +377,8 @@
     },
     {
       "name": "Iran University of Science and Technology",
-      "name_fa": "دانشگاه علم و صنعت ایران",
+      "name_local": "دانشگاه علم و صنعت ایران",
+      "country": "IR",
       "domains": [
         "iust.ac.ir"
       ],
@@ -353,7 +388,8 @@
     },
     {
       "name": "Isfahan University",
-      "name_fa": "دانشگاه اصفهان",
+      "name_local": "دانشگاه اصفهان",
+      "country": "IR",
       "domains": [
         "ui.ac.ir"
       ],
@@ -363,7 +399,8 @@
     },
     {
       "name": "Isfahan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی اصفهان",
+      "name_local": "دانشگاه علوم پزشکی اصفهان",
+      "country": "IR",
       "domains": [
         "mui.ac.ir"
       ],
@@ -373,7 +410,8 @@
     },
     {
       "name": "Isfahan University of Technology",
-      "name_fa": "دانشگاه صنعتی اصفهان",
+      "name_local": "دانشگاه صنعتی اصفهان",
+      "country": "IR",
       "domains": [
         "iut.ac.ir"
       ],
@@ -383,7 +421,8 @@
     },
     {
       "name": "Islamic Azad University",
-      "name_fa": "دانشگاه آزاد اسلامی",
+      "name_local": "دانشگاه آزاد اسلامی",
+      "country": "IR",
       "domains": [
         "iau.ir",
         "iau.ac.ir"
@@ -394,7 +433,8 @@
     },
     {
       "name": "Islamic Azad University, Ahar",
-      "name_fa": "دانشگاه آزاد اسلامی واحد اهر",
+      "name_local": "دانشگاه آزاد اسلامی واحد اهر",
+      "country": "IR",
       "domains": [
         "iau-ahar.ac.ir"
       ],
@@ -404,7 +444,8 @@
     },
     {
       "name": "Islamic Azad University, Aliabad",
-      "name_fa": "دانشگاه آزاد اسلامی واحد علی‌آباد کتول",
+      "name_local": "دانشگاه آزاد اسلامی واحد علی‌آباد کتول",
+      "country": "IR",
       "domains": [
         "aliabadiau.ac.ir"
       ],
@@ -414,7 +455,8 @@
     },
     {
       "name": "Islamic Azad University, Arak",
-      "name_fa": "دانشگاه آزاد اسلامی واحد اراک",
+      "name_local": "دانشگاه آزاد اسلامی واحد اراک",
+      "country": "IR",
       "domains": [
         "iau-arak.ac.ir"
       ],
@@ -424,7 +466,8 @@
     },
     {
       "name": "Islamic Azad University, Ardabil",
-      "name_fa": "دانشگاه آزاد اسلامی واحد اردبیل",
+      "name_local": "دانشگاه آزاد اسلامی واحد اردبیل",
+      "country": "IR",
       "domains": [
         "iauardabil.ac.ir"
       ],
@@ -434,7 +477,8 @@
     },
     {
       "name": "Islamic Azad University, Bandar Abbas",
-      "name_fa": "دانشگاه آزاد اسلامی واحد بندرعباس",
+      "name_local": "دانشگاه آزاد اسلامی واحد بندرعباس",
+      "country": "IR",
       "domains": [
         "iauba.ac.ir"
       ],
@@ -444,7 +488,8 @@
     },
     {
       "name": "Islamic Azad University, Bojnourd",
-      "name_fa": "دانشگاه آزاد اسلامی واحد بجنورد",
+      "name_local": "دانشگاه آزاد اسلامی واحد بجنورد",
+      "country": "IR",
       "domains": [
         "bojnourdiau.ac.ir"
       ],
@@ -454,7 +499,8 @@
     },
     {
       "name": "Islamic Azad University, Bostanabad",
-      "name_fa": "دانشگاه آزاد اسلامی واحد بستان‌آباد",
+      "name_local": "دانشگاه آزاد اسلامی واحد بستان‌آباد",
+      "country": "IR",
       "domains": [
         "iaubos.ac.ir"
       ],
@@ -464,7 +510,8 @@
     },
     {
       "name": "Islamic Azad University, Boukan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد بوکان",
+      "name_local": "دانشگاه آزاد اسلامی واحد بوکان",
+      "country": "IR",
       "domains": [
         "iau-boukan.ac.ir"
       ],
@@ -474,7 +521,8 @@
     },
     {
       "name": "Islamic Azad University, Central Tehran Branch",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تهران مرکزی",
+      "name_local": "دانشگاه آزاد اسلامی واحد تهران مرکزی",
+      "country": "IR",
       "domains": [
         "iauctb.ac.ir"
       ],
@@ -484,7 +532,8 @@
     },
     {
       "name": "Islamic Azad University, Garmsar",
-      "name_fa": "دانشگاه آزاد اسلامی واحد گرمسار",
+      "name_local": "دانشگاه آزاد اسلامی واحد گرمسار",
+      "country": "IR",
       "domains": [
         "iau-garmsar.ac.ir"
       ],
@@ -494,7 +543,8 @@
     },
     {
       "name": "Islamic Azad University, Hamedan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد همدان",
+      "name_local": "دانشگاه آزاد اسلامی واحد همدان",
+      "country": "IR",
       "domains": [
         "iauh.ac.ir"
       ],
@@ -504,7 +554,8 @@
     },
     {
       "name": "Islamic Azad University, Karaj",
-      "name_fa": "دانشگاه آزاد اسلامی واحد کرج",
+      "name_local": "دانشگاه آزاد اسلامی واحد کرج",
+      "country": "IR",
       "domains": [
         "kiau.ac.ir"
       ],
@@ -514,7 +565,8 @@
     },
     {
       "name": "Islamic Azad University, Kazeron",
-      "name_fa": "دانشگاه آزاد اسلامی واحد کازرون",
+      "name_local": "دانشگاه آزاد اسلامی واحد کازرون",
+      "country": "IR",
       "domains": [
         "kau.ac.ir"
       ],
@@ -524,7 +576,8 @@
     },
     {
       "name": "Islamic Azad University, Kerman",
-      "name_fa": "دانشگاه آزاد اسلامی واحد کرمان",
+      "name_local": "دانشگاه آزاد اسلامی واحد کرمان",
+      "country": "IR",
       "domains": [
         "iauk.ac.ir"
       ],
@@ -534,7 +587,8 @@
     },
     {
       "name": "Islamic Azad University, Khorasgan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد اصفهان (خوراسگان)",
+      "name_local": "دانشگاه آزاد اسلامی واحد اصفهان (خوراسگان)",
+      "country": "IR",
       "domains": [
         "khuisf.ac.ir"
       ],
@@ -544,7 +598,8 @@
     },
     {
       "name": "Islamic Azad University, Majlesi",
-      "name_fa": "دانشگاه آزاد اسلامی واحد علامه مجلسی",
+      "name_local": "دانشگاه آزاد اسلامی واحد علامه مجلسی",
+      "country": "IR",
       "domains": [
         "iaumajlesi.ac.ir"
       ],
@@ -554,7 +609,8 @@
     },
     {
       "name": "Islamic Azad University, Mashhad",
-      "name_fa": "دانشگاه آزاد اسلامی واحد مشهد",
+      "name_local": "دانشگاه آزاد اسلامی واحد مشهد",
+      "country": "IR",
       "domains": [
         "mshdiau.ac.ir"
       ],
@@ -564,7 +620,8 @@
     },
     {
       "name": "Islamic Azad University, Mobarakeh",
-      "name_fa": "دانشگاه آزاد اسلامی واحد مبارکه",
+      "name_local": "دانشگاه آزاد اسلامی واحد مبارکه",
+      "country": "IR",
       "domains": [
         "mau.ac.ir"
       ],
@@ -574,7 +631,8 @@
     },
     {
       "name": "Islamic Azad University, Najaf Abad",
-      "name_fa": "دانشگاه آزاد اسلامی واحد نجف‌آباد",
+      "name_local": "دانشگاه آزاد اسلامی واحد نجف‌آباد",
+      "country": "IR",
       "domains": [
         "iaun.ac.ir"
       ],
@@ -584,7 +642,8 @@
     },
     {
       "name": "Islamic Azad University, North Tehran",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تهران شمال",
+      "name_local": "دانشگاه آزاد اسلامی واحد تهران شمال",
+      "country": "IR",
       "domains": [
         "iau-tnb.ac.ir"
       ],
@@ -594,7 +653,8 @@
     },
     {
       "name": "Islamic Azad University, Parand",
-      "name_fa": "دانشگاه آزاد اسلامی واحد پرند",
+      "name_local": "دانشگاه آزاد اسلامی واحد پرند",
+      "country": "IR",
       "domains": [
         "piau.ac.ir"
       ],
@@ -604,7 +664,8 @@
     },
     {
       "name": "Islamic Azad University, Quchan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد قوچان",
+      "name_local": "دانشگاه آزاد اسلامی واحد قوچان",
+      "country": "IR",
       "domains": [
         "iauq.ac.ir"
       ],
@@ -614,7 +675,8 @@
     },
     {
       "name": "Islamic Azad University, Sanandaj",
-      "name_fa": "دانشگاه آزاد اسلامی واحد سنندج",
+      "name_local": "دانشگاه آزاد اسلامی واحد سنندج",
+      "country": "IR",
       "domains": [
         "iausdj.ac.ir"
       ],
@@ -624,7 +686,8 @@
     },
     {
       "name": "Islamic Azad University, Saveh",
-      "name_fa": "دانشگاه آزاد اسلامی واحد ساوه",
+      "name_local": "دانشگاه آزاد اسلامی واحد ساوه",
+      "country": "IR",
       "domains": [
         "iau-saveh.ac.ir"
       ],
@@ -634,7 +697,8 @@
     },
     {
       "name": "Islamic Azad University, Semnan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد سمنان",
+      "name_local": "دانشگاه آزاد اسلامی واحد سمنان",
+      "country": "IR",
       "domains": [
         "semnaniau.ac.ir"
       ],
@@ -644,7 +708,8 @@
     },
     {
       "name": "Islamic Azad University, Shahr-e-rey Branch",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شهر ری",
+      "name_local": "دانشگاه آزاد اسلامی واحد شهر ری",
+      "country": "IR",
       "domains": [
         "iausr.ac.ir"
       ],
@@ -654,7 +719,8 @@
     },
     {
       "name": "Islamic Azad University, Shahrood",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شاهرود",
+      "name_local": "دانشگاه آزاد اسلامی واحد شاهرود",
+      "country": "IR",
       "domains": [
         "iau-shahrood.ac.ir"
       ],
@@ -664,7 +730,8 @@
     },
     {
       "name": "Islamic Azad University, Shahryar",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شهریار",
+      "name_local": "دانشگاه آزاد اسلامی واحد شهریار",
+      "country": "IR",
       "domains": [
         "shahryariau.ac.ir"
       ],
@@ -674,7 +741,8 @@
     },
     {
       "name": "Islamic Azad University, Shiraz",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شیراز",
+      "name_local": "دانشگاه آزاد اسلامی واحد شیراز",
+      "country": "IR",
       "domains": [
         "iaushiraz.ac.ir"
       ],
@@ -684,7 +752,8 @@
     },
     {
       "name": "Islamic Azad University, Shirvan",
-      "name_fa": "دانشگاه آزاد اسلامی واحد شیروان",
+      "name_local": "دانشگاه آزاد اسلامی واحد شیروان",
+      "country": "IR",
       "domains": [
         "iau-shirvan.ac.ir"
       ],
@@ -694,7 +763,8 @@
     },
     {
       "name": "Islamic Azad University, Tabriz",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تبریز",
+      "name_local": "دانشگاه آزاد اسلامی واحد تبریز",
+      "country": "IR",
       "domains": [
         "iaut.ac.ir"
       ],
@@ -704,7 +774,8 @@
     },
     {
       "name": "Islamic Azad University, Tafresh",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تفرش",
+      "name_local": "دانشگاه آزاد اسلامی واحد تفرش",
+      "country": "IR",
       "domains": [
         "iautb.ac.ir"
       ],
@@ -714,7 +785,8 @@
     },
     {
       "name": "Islamic Azad University, Tehran Medical",
-      "name_fa": "دانشگاه علوم پزشکی آزاد اسلامی تهران",
+      "name_local": "دانشگاه علوم پزشکی آزاد اسلامی تهران",
+      "country": "IR",
       "domains": [
         "iautmu.ac.ir"
       ],
@@ -724,7 +796,8 @@
     },
     {
       "name": "Islamic Azad University, Tehran Science &amp; Research Branch",
-      "name_fa": "دانشگاه آزاد اسلامی واحد علوم و تحقیقات",
+      "name_local": "دانشگاه آزاد اسلامی واحد علوم و تحقیقات",
+      "country": "IR",
       "domains": [
         "srbiau.ac.ir"
       ],
@@ -734,7 +807,8 @@
     },
     {
       "name": "Islamic Azad University, Tehran South",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تهران جنوب",
+      "name_local": "دانشگاه آزاد اسلامی واحد تهران جنوب",
+      "country": "IR",
       "domains": [
         "azad.ac.ir"
       ],
@@ -744,7 +818,8 @@
     },
     {
       "name": "Islamic Azad University, Varamin",
-      "name_fa": "دانشگاه آزاد اسلامی واحد ورامین-پیشوا",
+      "name_local": "دانشگاه آزاد اسلامی واحد ورامین-پیشوا",
+      "country": "IR",
       "domains": [
         "iauvaramin.ac.ir"
       ],
@@ -754,7 +829,8 @@
     },
     {
       "name": "Islamic Azad University, Yazd",
-      "name_fa": "دانشگاه آزاد اسلامی واحد یزد",
+      "name_local": "دانشگاه آزاد اسلامی واحد یزد",
+      "country": "IR",
       "domains": [
         "iauyazd.ac.ir"
       ],
@@ -764,7 +840,8 @@
     },
     {
       "name": "Jahrom University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی جهرم",
+      "name_local": "دانشگاه علوم پزشکی جهرم",
+      "country": "IR",
       "domains": [
         "jums.ac.ir"
       ],
@@ -774,7 +851,8 @@
     },
     {
       "name": "Jami Institute of Technology",
-      "name_fa": "موسسه آموزش عالی جامی",
+      "name_local": "موسسه آموزش عالی جامی",
+      "country": "IR",
       "domains": [
         "jami.ac.ir"
       ],
@@ -784,7 +862,8 @@
     },
     {
       "name": "K.N.Toosi University of Technology",
-      "name_fa": "دانشگاه خواجه نصیرالدین طوسی",
+      "name_local": "دانشگاه خواجه نصیرالدین طوسی",
+      "country": "IR",
       "domains": [
         "kntu.ac.ir"
       ],
@@ -794,7 +873,8 @@
     },
     {
       "name": "Kashan University",
-      "name_fa": "دانشگاه کاشان",
+      "name_local": "دانشگاه کاشان",
+      "country": "IR",
       "domains": [
         "kashanu.ac.ir"
       ],
@@ -804,7 +884,8 @@
     },
     {
       "name": "Kerman University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی کرمان",
+      "name_local": "دانشگاه علوم پزشکی کرمان",
+      "country": "IR",
       "domains": [
         "kmu.ac.ir"
       ],
@@ -814,7 +895,8 @@
     },
     {
       "name": "Kermanshah University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی کرمانشاه",
+      "name_local": "دانشگاه علوم پزشکی کرمانشاه",
+      "country": "IR",
       "domains": [
         "kums.ac.ir"
       ],
@@ -824,7 +906,8 @@
     },
     {
       "name": "Kharazmi University of Tehran",
-      "name_fa": "دانشگاه خوارزمی",
+      "name_local": "دانشگاه خوارزمی",
+      "country": "IR",
       "domains": [
         "khu.ac.ir"
       ],
@@ -834,7 +917,8 @@
     },
     {
       "name": "Kurdistan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی کردستان",
+      "name_local": "دانشگاه علوم پزشکی کردستان",
+      "country": "IR",
       "domains": [
         "muk.ac.ir"
       ],
@@ -844,7 +928,8 @@
     },
     {
       "name": "Lorestan University",
-      "name_fa": "دانشگاه لرستان",
+      "name_local": "دانشگاه لرستان",
+      "country": "IR",
       "domains": [
         "lu.ac.ir"
       ],
@@ -854,7 +939,8 @@
     },
     {
       "name": "Lorestan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی لرستان",
+      "name_local": "دانشگاه علوم پزشکی لرستان",
+      "country": "IR",
       "domains": [
         "lums.ac.ir"
       ],
@@ -864,7 +950,8 @@
     },
     {
       "name": "Malayer University",
-      "name_fa": "دانشگاه ملایر",
+      "name_local": "دانشگاه ملایر",
+      "country": "IR",
       "domains": [
         "malayeru.ac.ir"
       ],
@@ -874,7 +961,8 @@
     },
     {
       "name": "Mamasani University of Technology",
-      "name_fa": "دانشگاه آزاد اسلامی واحد ممسنی",
+      "name_local": "دانشگاه آزاد اسلامی واحد ممسنی",
+      "country": "IR",
       "domains": [
         "mamasaniiau.ac.ir"
       ],
@@ -884,7 +972,8 @@
     },
     {
       "name": "Mashhad University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی مشهد",
+      "name_local": "دانشگاه علوم پزشکی مشهد",
+      "country": "IR",
       "domains": [
         "mums.ac.ir"
       ],
@@ -894,7 +983,8 @@
     },
     {
       "name": "Mazandaran University of Iran",
-      "name_fa": "دانشگاه مازندران",
+      "name_local": "دانشگاه مازندران",
+      "country": "IR",
       "domains": [
         "umz.ac.ir"
       ],
@@ -904,7 +994,8 @@
     },
     {
       "name": "Mazandaran University of Science &amp; Technology",
-      "name_fa": "دانشگاه علوم و فنون مازندران",
+      "name_local": "دانشگاه علوم و فنون مازندران",
+      "country": "IR",
       "domains": [
         "ustmb.ac.ir"
       ],
@@ -914,7 +1005,8 @@
     },
     {
       "name": "Mechatronics Research Laboratory, Islamic Azad University, Qazvin",
-      "name_fa": "مرکز تحقیقات مکاترونیک دانشگاه آزاد اسلامی واحد قزوین",
+      "name_local": "مرکز تحقیقات مکاترونیک دانشگاه آزاد اسلامی واحد قزوین",
+      "country": "IR",
       "domains": [
         "mrl-spl.ir"
       ],
@@ -924,7 +1016,8 @@
     },
     {
       "name": "Mofid University",
-      "name_fa": "دانشگاه مفید",
+      "name_local": "دانشگاه مفید",
+      "country": "IR",
       "domains": [
         "mofidu.ac.ir"
       ],
@@ -934,7 +1027,8 @@
     },
     {
       "name": "Mustafa International University",
-      "name_fa": "جامعة المصطفی العالمیة",
+      "name_local": "جامعة المصطفی العالمیة",
+      "country": "IR",
       "domains": [
         "miu.ac.ir"
       ],
@@ -944,7 +1038,8 @@
     },
     {
       "name": "Payame Noor University",
-      "name_fa": "دانشگاه پیام نور",
+      "name_local": "دانشگاه پیام نور",
+      "country": "IR",
       "domains": [
         "pnu.ac.ir"
       ],
@@ -954,7 +1049,8 @@
     },
     {
       "name": "Persian Gulf University",
-      "name_fa": "دانشگاه خلیج فارس",
+      "name_local": "دانشگاه خلیج فارس",
+      "country": "IR",
       "domains": [
         "pgu.ac.ir"
       ],
@@ -964,7 +1060,8 @@
     },
     {
       "name": "Petroleum University of Technology",
-      "name_fa": "دانشگاه صنعت نفت",
+      "name_local": "دانشگاه صنعت نفت",
+      "country": "IR",
       "domains": [
         "put.ac.ir"
       ],
@@ -974,7 +1071,8 @@
     },
     {
       "name": "Qazvin University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی قزوین",
+      "name_local": "دانشگاه علوم پزشکی قزوین",
+      "country": "IR",
       "domains": [
         "qums.ac.ir"
       ],
@@ -984,7 +1082,8 @@
     },
     {
       "name": "Qom University",
-      "name_fa": "دانشگاه قم",
+      "name_local": "دانشگاه قم",
+      "country": "IR",
       "domains": [
         "qom.ac.ir"
       ],
@@ -994,7 +1093,8 @@
     },
     {
       "name": "Rafsanjan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی رفسنجان",
+      "name_local": "دانشگاه علوم پزشکی رفسنجان",
+      "country": "IR",
       "domains": [
         "rums.ac.ir"
       ],
@@ -1004,7 +1104,8 @@
     },
     {
       "name": "Razi University",
-      "name_fa": "دانشگاه رازی",
+      "name_local": "دانشگاه رازی",
+      "country": "IR",
       "domains": [
         "razi.ac.ir"
       ],
@@ -1014,7 +1115,8 @@
     },
     {
       "name": "Sabzevar School of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی سبزوار",
+      "name_local": "دانشگاه علوم پزشکی سبزوار",
+      "country": "IR",
       "domains": [
         "medsab.ac.ir"
       ],
@@ -1024,7 +1126,8 @@
     },
     {
       "name": "Sadjad Institute of Technology",
-      "name_fa": "دانشگاه صنعتی سجاد",
+      "name_local": "دانشگاه صنعتی سجاد",
+      "country": "IR",
       "domains": [
         "sadjad.ac.ir"
       ],
@@ -1034,7 +1137,8 @@
     },
     {
       "name": "Sadra University",
-      "name_fa": "موسسه آموزش عالی صدرالمتالهین",
+      "name_local": "موسسه آموزش عالی صدرالمتالهین",
+      "country": "IR",
       "domains": [
         "sadra.ac.ir"
       ],
@@ -1044,7 +1148,8 @@
     },
     {
       "name": "Sahand University of Technology",
-      "name_fa": "دانشگاه صنعتی سهند",
+      "name_local": "دانشگاه صنعتی سهند",
+      "country": "IR",
       "domains": [
         "sut.ac.ir"
       ],
@@ -1054,7 +1159,8 @@
     },
     {
       "name": "Semnan University",
-      "name_fa": "دانشگاه سمنان",
+      "name_local": "دانشگاه سمنان",
+      "country": "IR",
       "domains": [
         "semnan.ac.ir"
       ],
@@ -1064,7 +1170,8 @@
     },
     {
       "name": "Shahed University",
-      "name_fa": "دانشگاه شاهد",
+      "name_local": "دانشگاه شاهد",
+      "country": "IR",
       "domains": [
         "shahed.ac.ir"
       ],
@@ -1074,7 +1181,8 @@
     },
     {
       "name": "Shaheed Beheshti University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی شهید بهشتی",
+      "name_local": "دانشگاه علوم پزشکی شهید بهشتی",
+      "country": "IR",
       "domains": [
         "sbmu.ac.ir"
       ],
@@ -1084,7 +1192,8 @@
     },
     {
       "name": "Shahid Beheshti University",
-      "name_fa": "دانشگاه شهید بهشتی",
+      "name_local": "دانشگاه شهید بهشتی",
+      "country": "IR",
       "domains": [
         "sbu.ac.ir"
       ],
@@ -1094,7 +1203,8 @@
     },
     {
       "name": "Shahid Bahonar University of Kerman",
-      "name_fa": "دانشگاه شهید باهنر کرمان",
+      "name_local": "دانشگاه شهید باهنر کرمان",
+      "country": "IR",
       "domains": [
         "uk.ac.ir"
       ],
@@ -1104,7 +1214,8 @@
     },
     {
       "name": "Shahrekord University",
-      "name_fa": "دانشگاه شهرکرد",
+      "name_local": "دانشگاه شهرکرد",
+      "country": "IR",
       "domains": [
         "sku.ac.ir"
       ],
@@ -1114,7 +1225,8 @@
     },
     {
       "name": "Shahrekord University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی شهرکرد",
+      "name_local": "دانشگاه علوم پزشکی شهرکرد",
+      "country": "IR",
       "domains": [
         "skums.ac.ir"
       ],
@@ -1124,7 +1236,8 @@
     },
     {
       "name": "Shahrood University of Technology",
-      "name_fa": "دانشگاه صنعتی شاهرود",
+      "name_local": "دانشگاه صنعتی شاهرود",
+      "country": "IR",
       "domains": [
         "shahroodut.ac.ir"
       ],
@@ -1134,7 +1247,8 @@
     },
     {
       "name": "Sharif University of Technology",
-      "name_fa": "دانشگاه صنعتی شریف",
+      "name_local": "دانشگاه صنعتی شریف",
+      "country": "IR",
       "domains": [
         "sharif.ac.ir"
       ],
@@ -1144,7 +1258,8 @@
     },
     {
       "name": "Sharif University of Technology, Kish Campus",
-      "name_fa": "پردیس بین‌المللی دانشگاه صنعتی شریف",
+      "name_local": "پردیس بین‌المللی دانشگاه صنعتی شریف",
+      "country": "IR",
       "domains": [
         "kish.ac.ir"
       ],
@@ -1154,7 +1269,8 @@
     },
     {
       "name": "Sheikhbahaee University",
-      "name_fa": "دانشگاه شیخ بهایی",
+      "name_local": "دانشگاه شیخ بهایی",
+      "country": "IR",
       "domains": [
         "shbu.ac.ir"
       ],
@@ -1164,7 +1280,8 @@
     },
     {
       "name": "Shiraz Payamnoor University",
-      "name_fa": "دانشگاه پیام نور مرکز شیراز",
+      "name_local": "دانشگاه پیام نور مرکز شیراز",
+      "country": "IR",
       "domains": [
         "spnu.ac.ir"
       ],
@@ -1174,7 +1291,8 @@
     },
     {
       "name": "Shiraz University",
-      "name_fa": "دانشگاه شیراز",
+      "name_local": "دانشگاه شیراز",
+      "country": "IR",
       "domains": [
         "shirazu.ac.ir"
       ],
@@ -1184,7 +1302,8 @@
     },
     {
       "name": "Shiraz University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی شیراز",
+      "name_local": "دانشگاه علوم پزشکی شیراز",
+      "country": "IR",
       "domains": [
         "sums.ac.ir"
       ],
@@ -1194,7 +1313,8 @@
     },
     {
       "name": "Shiraz University of Technology",
-      "name_fa": "دانشگاه صنعتی شیراز",
+      "name_local": "دانشگاه صنعتی شیراز",
+      "country": "IR",
       "domains": [
         "sutech.ac.ir"
       ],
@@ -1204,7 +1324,8 @@
     },
     {
       "name": "Shomal University",
-      "name_fa": "دانشگاه شمال",
+      "name_local": "دانشگاه شمال",
+      "country": "IR",
       "domains": [
         "shomal.ac.ir"
       ],
@@ -1214,7 +1335,8 @@
     },
     {
       "name": "Sistan &amp; Balouchestan University",
-      "name_fa": "دانشگاه سیستان و بلوچستان",
+      "name_local": "دانشگاه سیستان و بلوچستان",
+      "country": "IR",
       "domains": [
         "usb.ac.ir"
       ],
@@ -1224,7 +1346,8 @@
     },
     {
       "name": "Tabriz College of Technology",
-      "name_fa": "دانشکده فنی و حرفه‌ای تبریز",
+      "name_local": "دانشکده فنی و حرفه‌ای تبریز",
+      "country": "IR",
       "domains": [
         "tct.ac.ir"
       ],
@@ -1234,7 +1357,8 @@
     },
     {
       "name": "Tabriz Islamic Art University",
-      "name_fa": "دانشگاه هنر اسلامی تبریز",
+      "name_local": "دانشگاه هنر اسلامی تبریز",
+      "country": "IR",
       "domains": [
         "tabriziau.ac.ir"
       ],
@@ -1244,7 +1368,8 @@
     },
     {
       "name": "Tabriz University",
-      "name_fa": "دانشگاه تبریز",
+      "name_local": "دانشگاه تبریز",
+      "country": "IR",
       "domains": [
         "tabrizu.ac.ir"
       ],
@@ -1254,7 +1379,8 @@
     },
     {
       "name": "Tabriz University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی تبریز",
+      "name_local": "دانشگاه علوم پزشکی تبریز",
+      "country": "IR",
       "domains": [
         "tbzmed.ac.ir"
       ],
@@ -1264,7 +1390,8 @@
     },
     {
       "name": "Takestan Islamic Azad University",
-      "name_fa": "دانشگاه آزاد اسلامی واحد تاکستان",
+      "name_local": "دانشگاه آزاد اسلامی واحد تاکستان",
+      "country": "IR",
       "domains": [
         "tiau.ac.ir"
       ],
@@ -1274,7 +1401,8 @@
     },
     {
       "name": "Tarbiat Modares University",
-      "name_fa": "دانشگاه تربیت مدرس",
+      "name_local": "دانشگاه تربیت مدرس",
+      "country": "IR",
       "domains": [
         "modares.ac.ir"
       ],
@@ -1284,7 +1412,8 @@
     },
     {
       "name": "Tehran University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی تهران",
+      "name_local": "دانشگاه علوم پزشکی تهران",
+      "country": "IR",
       "domains": [
         "tums.ac.ir"
       ],
@@ -1294,7 +1423,8 @@
     },
     {
       "name": "University of Applied Science and Technology",
-      "name_fa": "دانشگاه جامع علمی کاربردی",
+      "name_local": "دانشگاه جامع علمی کاربردی",
+      "country": "IR",
       "domains": [
         "uast.ac.ir"
       ],
@@ -1304,7 +1434,8 @@
     },
     {
       "name": "University of Hormozgan",
-      "name_fa": "دانشگاه هرمزگان",
+      "name_local": "دانشگاه هرمزگان",
+      "country": "IR",
       "domains": [
         "hormozgan.ac.ir"
       ],
@@ -1314,7 +1445,8 @@
     },
     {
       "name": "University of Kurdistan",
-      "name_fa": "دانشگاه کردستان",
+      "name_local": "دانشگاه کردستان",
+      "country": "IR",
       "domains": [
         "uok.ac.ir"
       ],
@@ -1324,7 +1456,8 @@
     },
     {
       "name": "University of Mashhad Pnu",
-      "name_fa": "دانشگاه پیام نور مرکز مشهد",
+      "name_local": "دانشگاه پیام نور مرکز مشهد",
+      "country": "IR",
       "domains": [
         "pnum.ac.ir"
       ],
@@ -1334,7 +1467,8 @@
     },
     {
       "name": "University of Mohaghegh",
-      "name_fa": "دانشگاه محقق اردبیلی",
+      "name_local": "دانشگاه محقق اردبیلی",
+      "country": "IR",
       "domains": [
         "uma.ac.ir"
       ],
@@ -1344,7 +1478,8 @@
     },
     {
       "name": "University of Science and Culture",
-      "name_fa": "دانشگاه علم و فرهنگ",
+      "name_local": "دانشگاه علم و فرهنگ",
+      "country": "IR",
       "domains": [
         "usc.ac.ir"
       ],
@@ -1354,7 +1489,8 @@
     },
     {
       "name": "University of Social Welfare and Rehabilitation Scinences",
-      "name_fa": "دانشگاه علوم بهزیستی و توانبخشی",
+      "name_local": "دانشگاه علوم بهزیستی و توانبخشی",
+      "country": "IR",
       "domains": [
         "uswr.ac.ir"
       ],
@@ -1364,7 +1500,8 @@
     },
     {
       "name": "University of Tehran",
-      "name_fa": "دانشگاه تهران",
+      "name_local": "دانشگاه تهران",
+      "country": "IR",
       "domains": [
         "ut.ac.ir"
       ],
@@ -1374,7 +1511,8 @@
     },
     {
       "name": "Urmia University",
-      "name_fa": "دانشگاه ارومیه",
+      "name_local": "دانشگاه ارومیه",
+      "country": "IR",
       "domains": [
         "urmia.ac.ir"
       ],
@@ -1384,7 +1522,8 @@
     },
     {
       "name": "Urmia University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی ارومیه",
+      "name_local": "دانشگاه علوم پزشکی ارومیه",
+      "country": "IR",
       "domains": [
         "umsu.ac.ir"
       ],
@@ -1394,7 +1533,8 @@
     },
     {
       "name": "Urmia University of Technology",
-      "name_fa": "دانشگاه صنعتی ارومیه",
+      "name_local": "دانشگاه صنعتی ارومیه",
+      "country": "IR",
       "domains": [
         "uut.ac.ir"
       ],
@@ -1404,7 +1544,8 @@
     },
     {
       "name": "Vali-e-Asr University",
-      "name_fa": "دانشگاه ولی‌عصر رفسنجان",
+      "name_local": "دانشگاه ولی‌عصر رفسنجان",
+      "country": "IR",
       "domains": [
         "vru.ac.ir"
       ],
@@ -1414,7 +1555,8 @@
     },
     {
       "name": "Yasuj University",
-      "name_fa": "دانشگاه یاسوج",
+      "name_local": "دانشگاه یاسوج",
+      "country": "IR",
       "domains": [
         "yu.ac.ir"
       ],
@@ -1424,7 +1566,8 @@
     },
     {
       "name": "Yasuj University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی یاسوج",
+      "name_local": "دانشگاه علوم پزشکی یاسوج",
+      "country": "IR",
       "domains": [
         "yums.ac.ir"
       ],
@@ -1434,7 +1577,8 @@
     },
     {
       "name": "Yazd Medical University",
-      "name_fa": "دانشگاه علوم پزشکی شهید صدوقی یزد",
+      "name_local": "دانشگاه علوم پزشکی شهید صدوقی یزد",
+      "country": "IR",
       "domains": [
         "ssu.ac.ir"
       ],
@@ -1444,7 +1588,8 @@
     },
     {
       "name": "Zabol University",
-      "name_fa": "دانشگاه زابل",
+      "name_local": "دانشگاه زابل",
+      "country": "IR",
       "domains": [
         "uoz.ac.ir"
       ],
@@ -1454,7 +1599,8 @@
     },
     {
       "name": "Zanjan Institute for Advanced Studies in Basic Sciences",
-      "name_fa": "پژوهشگاه دانش‌های بنیادی زنجان",
+      "name_local": "پژوهشگاه دانش‌های بنیادی زنجان",
+      "country": "IR",
       "domains": [
         "iasbs.ac.ir"
       ],
@@ -1464,7 +1610,8 @@
     },
     {
       "name": "Zanjan University",
-      "name_fa": "دانشگاه زنجان",
+      "name_local": "دانشگاه زنجان",
+      "country": "IR",
       "domains": [
         "znu.ac.ir"
       ],
@@ -1474,7 +1621,8 @@
     },
     {
       "name": "Zanjan University of Medical Sciences",
-      "name_fa": "دانشگاه علوم پزشکی زنجان",
+      "name_local": "دانشگاه علوم پزشکی زنجان",
+      "country": "IR",
       "domains": [
         "zums.ac.ir"
       ],
