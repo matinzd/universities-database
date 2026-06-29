@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Iran Universities Database",
+  "title": "Universities Database",
   "type": "object",
   "required": ["universities"],
   "additionalProperties": false,
@@ -18,7 +18,7 @@
   "definitions": {
     "university": {
       "type": "object",
-      "required": ["name", "domains"],
+      "required": ["name", "country", "domains"],
       "additionalProperties": false,
       "properties": {
         "name": {
@@ -26,17 +26,22 @@
           "minLength": 1,
           "description": "Official English name of the university"
         },
-        "name_fa": {
+        "name_local": {
           "type": "string",
-          "description": "Official Persian name of the university"
+          "description": "Official name of the university in its local language"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 country code (e.g. IR, US, GB)"
         },
         "domains": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "string",
-            "pattern": "^[a-z0-9.-]+\\.(ac\\.ir|ir)$",
-            "description": "Email domain, must end in .ac.ir or .ir"
+            "pattern": "^[a-z0-9][a-z0-9.-]*\\.[a-z]{2,}$",
+            "description": "Email domain (e.g. ut.ac.ir, mit.edu, ox.ac.uk)"
           },
           "description": "List of email domains used by this university"
         },
@@ -52,6 +57,10 @@
         "website": {
           "type": "string",
           "description": "Official website URL"
+        },
+        "dns_iran_only": {
+          "type": "boolean",
+          "description": "True when the domain's nameservers are only reachable from within Iran"
         }
       }
     }
