@@ -498,17 +498,6 @@
       "website": "https://bojnourdiau.ac.ir"
     },
     {
-      "name": "Islamic Azad University, Bostanabad",
-      "name_local": "دانشگاه آزاد اسلامی واحد بستان‌آباد",
-      "country": "IR",
-      "domains": [
-        "iaubos.ac.ir"
-      ],
-      "type": "islamic-azad",
-      "city": "Bostanabad",
-      "website": "https://iaubos.ac.ir"
-    },
-    {
       "name": "Islamic Azad University, Boukan",
       "name_local": "دانشگاه آزاد اسلامی واحد بوکان",
       "country": "IR",
@@ -660,7 +649,8 @@
       ],
       "type": "islamic-azad",
       "city": "Parand",
-      "website": "https://piau.ac.ir"
+      "website": "https://piau.ac.ir",
+      "dns_iran_only": true
     },
     {
       "name": "Islamic Azad University, Quchan",
@@ -729,17 +719,6 @@
       "website": "https://iau-shahrood.ac.ir"
     },
     {
-      "name": "Islamic Azad University, Shahryar",
-      "name_local": "دانشگاه آزاد اسلامی واحد شهریار",
-      "country": "IR",
-      "domains": [
-        "shahryariau.ac.ir"
-      ],
-      "type": "islamic-azad",
-      "city": "Shahryar",
-      "website": "https://shahryariau.ac.ir"
-    },
-    {
       "name": "Islamic Azad University, Shiraz",
       "name_local": "دانشگاه آزاد اسلامی واحد شیراز",
       "country": "IR",
@@ -749,17 +728,6 @@
       "type": "islamic-azad",
       "city": "Shiraz",
       "website": "https://iaushiraz.ac.ir"
-    },
-    {
-      "name": "Islamic Azad University, Shirvan",
-      "name_local": "دانشگاه آزاد اسلامی واحد شیروان",
-      "country": "IR",
-      "domains": [
-        "iau-shirvan.ac.ir"
-      ],
-      "type": "islamic-azad",
-      "city": "Shirvan",
-      "website": "https://iau-shirvan.ac.ir"
     },
     {
       "name": "Islamic Azad University, Tabriz",
@@ -848,17 +816,6 @@
       "type": "medical",
       "city": "Jahrom",
       "website": "https://jums.ac.ir"
-    },
-    {
-      "name": "Jami Institute of Technology",
-      "name_local": "موسسه آموزش عالی جامی",
-      "country": "IR",
-      "domains": [
-        "jami.ac.ir"
-      ],
-      "type": "private",
-      "city": "Najafabad",
-      "website": "https://jami.ac.ir"
     },
     {
       "name": "K.N.Toosi University of Technology",
@@ -1002,17 +959,6 @@
       "type": "private",
       "city": "Babol",
       "website": "https://ustmb.ac.ir"
-    },
-    {
-      "name": "Mechatronics Research Laboratory, Islamic Azad University, Qazvin",
-      "name_local": "مرکز تحقیقات مکاترونیک دانشگاه آزاد اسلامی واحد قزوین",
-      "country": "IR",
-      "domains": [
-        "mrl-spl.ir"
-      ],
-      "type": "islamic-azad",
-      "city": "Qazvin",
-      "website": "https://mrl-spl.ir"
     },
     {
       "name": "Mofid University",
@@ -1279,17 +1225,6 @@
       "website": "https://shbu.ac.ir"
     },
     {
-      "name": "Shiraz Payamnoor University",
-      "name_local": "دانشگاه پیام نور مرکز شیراز",
-      "country": "IR",
-      "domains": [
-        "spnu.ac.ir"
-      ],
-      "type": "distance",
-      "city": "Shiraz",
-      "website": "https://spnu.ac.ir"
-    },
-    {
       "name": "Shiraz University",
       "name_local": "دانشگاه شیراز",
       "country": "IR",
@@ -1331,7 +1266,8 @@
       ],
       "type": "private",
       "city": "Amol",
-      "website": "https://shomal.ac.ir"
+      "website": "https://shomal.ac.ir",
+      "dns_iran_only": true
     },
     {
       "name": "Sistan &amp; Balouchestan University",
@@ -1387,17 +1323,6 @@
       "type": "medical",
       "city": "Tabriz",
       "website": "https://tbzmed.ac.ir"
-    },
-    {
-      "name": "Takestan Islamic Azad University",
-      "name_local": "دانشگاه آزاد اسلامی واحد تاکستان",
-      "country": "IR",
-      "domains": [
-        "tiau.ac.ir"
-      ],
-      "type": "islamic-azad",
-      "city": "Takestan",
-      "website": "https://tiau.ac.ir"
     },
     {
       "name": "Tarbiat Modares University",
@@ -1518,7 +1443,8 @@
       ],
       "type": "public",
       "city": "Urmia",
-      "website": "https://urmia.ac.ir"
+      "website": "https://urmia.ac.ir",
+      "dns_iran_only": true
     },
     {
       "name": "Urmia University of Medical Sciences",

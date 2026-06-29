@@ -33,13 +33,11 @@ iau-boukan.ac.ir
 iau-garmsar.ac.ir
 iau-saveh.ac.ir
 iau-shahrood.ac.ir
-iau-shirvan.ac.ir
 iau-tnb.ac.ir
 iau.ac.ir
 iau.ir
 iauardabil.ac.ir
 iauba.ac.ir
-iaubos.ac.ir
 iauctb.ac.ir
 iauh.ac.ir
 iauk.ac.ir
@@ -62,7 +60,6 @@ isu.ac.ir
 iums.ac.ir
 iust.ac.ir
 iut.ac.ir
-jami.ac.ir
 jums.ac.ir
 kashanu.ac.ir
 kau.ac.ir
@@ -82,7 +79,6 @@ medsab.ac.ir
 miu.ac.ir
 modares.ac.ir
 mofidu.ac.ir
-mrl-spl.ir
 mshdiau.ac.ir
 mubabol.ac.ir
 mui.ac.ir
@@ -106,14 +102,12 @@ semnan.ac.ir
 semnaniau.ac.ir
 shahed.ac.ir
 shahroodut.ac.ir
-shahryariau.ac.ir
 sharif.ac.ir
 shbu.ac.ir
 shirazu.ac.ir
 shomal.ac.ir
 sku.ac.ir
 skums.ac.ir
-spnu.ac.ir
 srbiau.ac.ir
 ssu.ac.ir
 sums.ac.ir
@@ -123,7 +117,6 @@ tabriziau.ac.ir
 tabrizu.ac.ir
 tbzmed.ac.ir
 tct.ac.ir
-tiau.ac.ir
 tums.ac.ir
 uast.ac.ir
 ui.ac.ir
