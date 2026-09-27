@@ -1,5 +1,5 @@
 {
-  "$schema": "../schema.json",
+  "": "../schema.json",
   "universities": [
     {
       "name": "Indian Institute of Science",
@@ -32,16 +32,6 @@
       "website": "https://www.iitd.ac.in"
     },
     {
-      "name": "University of Delhi",
-      "country": "IN",
-      "domains": [
-        "du.ac.in"
-      ],
-      "type": "public",
-      "city": "New Delhi",
-      "website": "https://www.du.ac.in"
-    },
-    {
       "name": "Jawaharlal Nehru University",
       "country": "IN",
       "domains": [
@@ -50,6 +40,26 @@
       "type": "public",
       "city": "New Delhi",
       "website": "https://www.jnu.ac.in"
+    },
+    {
+      "name": "Oriental Group of Institutes",
+      "country": "IN",
+      "domains": [
+        "oriental.ac.in"
+      ],
+      "type": "private",
+      "city": "Bhopal",
+      "website": "https://oriental.ac.in"
+    },
+    {
+      "name": "University of Delhi",
+      "country": "IN",
+      "domains": [
+        "du.ac.in"
+      ],
+      "type": "public",
+      "city": "New Delhi",
+      "website": "https://www.du.ac.in"
     }
   ]
 }
